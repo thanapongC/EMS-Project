@@ -1,3 +1,5 @@
+## รันโปรเจคเลื่อนไปด้านล่างนะครับ
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,33 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+## Install Dependencies 
+
+ติดตั้ง Package
+
+```bash
+    npm install
+```
+
+Run
+
+```bash
+    npm start
+```
+
+## Folder Structure
+
+ - assets : ไฟล์เช่น รูปภาพ Icon เป็นต้น
+ - components : components ในโปรเจคสำหรับการเเสดงผล
+ - containers : component สำหรับการรับ-ส่งข้อมูลเเละส่งผ่าน props ไปยัง components ต่างๆ
+ - route : เส้นทางการทำงานของโปรเจค (a hraf in html)
+ - style : การตกเเต่งหน้าตาโปรเจคภายใต้การทำงานของ Meterial UI นะครับ
+ - utils : Service ต่างๆ
+ - index.js : root project components
+
+ **สามารถเพิ่มโฟลเดอร์ตามความเหมาะสมของระบบได้เลยนะครับ
+
+
